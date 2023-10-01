@@ -1,0 +1,15 @@
+import random
+char = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+contra = 0
+long = int(input("Que longitud deveria tener la contraseña")
+password = ""
+while True:
+  for i in range(long):
+    element = random.choice(char)
+    password += element
+print("Tu contraseña genera es",password)
+conf = input("quieres generar otra contraseña y o n")
+if conf == "n" 
+  break
+if conf == "y"
+  password = ""
